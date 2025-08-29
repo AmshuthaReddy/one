@@ -22,6 +22,9 @@
 			<version>3.8.1</version>
 			<scope>test</scope>
 		</dependency>
+  
+  
+
 
 	</dependencies>
 	
@@ -38,6 +41,12 @@
   	</distributionManagement>
 	
 	<pluginRepositories>
+		<plugin>
+  <groupId>org.apache.maven.plugins</groupId>
+  <artifactId>maven-war-plugin</artifactId>
+  <version>3.4.0</version>
+  </plugin>
+
 	    <pluginRepository>    
 		<id>maven1</id>
 		<name>Maven.org</name>
